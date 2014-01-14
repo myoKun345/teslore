@@ -1,0 +1,61 @@
+@font-face
+{
+	font-family: Roboto;
+	src: url("Roboto.ttf");
+}
+@font-face
+{
+	font-family: Inconsolata;
+	src: url("Inconsolata.otf");
+}
+body
+{
+	background-image: url(images/background.jpg);
+	font-family: Roboto;
+	font-size: 14px;
+}
+a
+{
+	color: #A72A2A;
+}
+pre, code
+{
+	color: #156915;
+	font-family: Inconsolata;
+}
+div.center
+{
+	text-align: center;
+}
+div.side
+{
+	background-image: url(images/texture.png);
+	color: #F4F4F4;
+	width: 20%;
+}
+div#header
+{
+	background-image: url(images/banner.png);
+	height: 64px;
+	width: auto;
+}
+div#left
+{
+	float: left;
+}
+div#left a
+{
+	text-decoration: none;
+}
+div#right
+{
+	float: right;
+}
+div#center
+{
+}
+div#footer
+{
+	clear: both;
+	font-size: 75%;
+}

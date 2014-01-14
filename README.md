@@ -1,2 +1,1 @@
-css-work
-========
+# /r/teslore CSS Project
