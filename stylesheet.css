@@ -1,16 +1,19 @@
 @font-face
 {
 	font-family: Roboto;
-	src: url(images/Roboto.ttf);
+	src: url(http://myrrlyn.com/resources/fonts/Roboto.ttf);
 }
 @font-face
 {
 	font-family: Inconsolata;
-	src: url(images/Inconsolata.otf);
+	src: url(http://myrrlyn.com/resources/fonts/Inconsolata.otf);
 }
 body
 {
+	background-attachment: fixed;
 	background-image: url(images/background.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
 	font-family: Roboto;
 	font-size: 14px;
 	margin: 0;
@@ -48,6 +51,8 @@ div.side > *
 }
 div#header
 {
+	background-image: url(images/banner.png);
+	background-position: center center;
 	height: 64px;
 	width: auto;
 }
@@ -89,7 +94,7 @@ a#return
 	left: 10px;
 	text-align: center;
 }
-ul.jqexpand
+div#left > ul ul
 {
 	display: none;
 }

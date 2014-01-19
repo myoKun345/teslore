@@ -1,0 +1,24 @@
+$(document).ready
+(
+	function()
+	{
+		$('span').click
+		(
+			function()
+			{
+				$(this).addClass
+				(
+					'clicked'
+				);
+				$('span.clicked + ul').slideToggle
+				(
+					'slow'
+				);
+				$(this).removeClass
+				(
+					'clicked'
+				);
+			}
+		);
+	}
+);
