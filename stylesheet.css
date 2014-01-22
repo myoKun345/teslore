@@ -74,6 +74,11 @@ div#right
 }
 div#center
 {
+	margin: 0 20%;
+}
+div#file-info
+{
+	margin: 0 5px;
 }
 div#footer
 {
@@ -94,7 +99,23 @@ a#return
 	left: 10px;
 	text-align: center;
 }
-div#left > ul ul
+div#left ul.list
 {
 	display: none;
+}
+div.expando
+{
+	background-image: url(images/Arrows.png);
+	background-position: 30px 30px;
+	display: inline-block;
+	height: 20px;
+	vertical-align: middle;
+	width: 12px;
+}
+div.expando.expanded
+{
+	background-position: 18px 23px;
+	height: 12px;
+	vertical-align: text-bottom;
+	width: 18px;
 }

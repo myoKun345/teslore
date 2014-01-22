@@ -2,7 +2,7 @@ $(document).ready
 (
 	function()
 	{
-		$('span').click
+		$('div.expando').click
 		(
 			function()
 			{
@@ -10,9 +10,13 @@ $(document).ready
 				(
 					'clicked'
 				);
-				$('span.clicked + ul').slideToggle
+				$('div.expando.clicked + ul.list').slideToggle
 				(
 					'slow'
+				);
+				$(this).toggleClass
+				(
+					'expanded'
 				);
 				$(this).removeClass
 				(
