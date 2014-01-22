@@ -1,0 +1,12 @@
+<h1>
+	teslore style
+</h1>
+<p>
+	This is the collection of files which are collected and processed into the CSS that governs /r/teslore. Upon execution of <code>bundle exec rake reddit:compile</code>, the <code>teslore.css.sass.erb</code> file is read by Ruby, which swaps the variable names for the appropriate text before passing it to SASS. SASS reads the <code>@import</code> directives and is informed to search in the /teslore directory rather than the root. SASS collects the files from /teslore, which themselves have <code>@import</code> directives pointed at the subfolders, and once assembled, converts the sheet to CSS. This is stored in <code>build/teslore.css</code>, where the <code>bundle exec rake reddit:push</code> command may receive it and pass it to the CSS entry form of the specified subreddit.
+</p>
+<p>
+	<a href="https://github.com/myrrlyn/teslore/blob/master/teslore.css.sass.erb">
+		<code>teslore.css.sass.erb</code>
+	</a>
+	&nbsp;is the wrapper which holds the instructions to receive information from Git and Ruby, as well as the contents of child files. It also contains the header and footer comments containing author information.
+</p>

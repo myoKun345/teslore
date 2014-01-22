@@ -1,0 +1,8 @@
+<h1>
+	<a href="https://github.com/myrrlyn/teslore/blob/master/Rakefile">
+		Rakefile on GitHub
+	</a>
+</h1>
+<p>
+	The Rakefile creates the command environment and dictates the behavior of the collected subroutines for the Rake commands, including date processing by Akatoshbot, reddit access, and SASS information.
+</p>

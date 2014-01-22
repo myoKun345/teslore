@@ -1,0 +1,8 @@
+<h1>
+	<a href="https://github.com/myrrlyn/teslore/blob/master/Bindfile">
+		Bindfile on GitHub
+	</a>
+</h1>
+<p>
+	The Bindfile is used for date and banner computation, and is used to define Tamrielic time and provide automated banner-image cycling. At present, only the date functions are used, and the banner is changed manually.
+</p>

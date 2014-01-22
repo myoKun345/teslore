@@ -1,0 +1,8 @@
+<h1>
+	<a href="https://github.com/myrrlyn/teslore/blob/master/Gemfile.lock>
+		Gemfile.lock on GitHub
+	</a>
+</h1>
+<p>
+	The Gemfile.lock provides detailed information about where the required packages can be found, their versions, and the packages that they themselves require.
+</p>
